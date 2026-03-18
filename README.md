@@ -110,6 +110,3 @@ Then re-run the desired app.
 
 ---
 
-## 📜 License
-
-This repo does not include a license file. Add one if you want to make the project open source.
