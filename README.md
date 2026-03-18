@@ -58,6 +58,38 @@ flutter run
 
 ---
 
+## 📦 Building APKs (Optional)
+
+You can build release APKs for installation/testing.
+
+### Rider App APK (bmxmobile)
+
+```bash
+cd "bmxmobile"
+flutter pub get
+flutter build apk --release
+```
+
+APK output location:
+
+- `bmxmobile/build/app/outputs/flutter-apk/app-release.apk`
+
+### Coach App APK (coach/coach_app)
+
+```bash
+cd "coach/coach_app"
+flutter pub get
+flutter build apk --release
+```
+
+APK output location:
+
+- `coach/coach_app/build/app/outputs/flutter-apk/app-release.apk`
+
+> ⚠️ Note: Storing built APKs in git is generally not recommended due to large binary sizes. If you want to keep distributable APKs in this repo, place them under `apks/` and consider using [Git LFS](https://git-lfs.github.com/) to avoid bloating the repo.
+
+---
+
 ## 🧩 Notes
 
 - Each app is a standalone Flutter project. Build/configuration is managed independently.
