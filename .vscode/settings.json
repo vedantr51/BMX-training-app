@@ -1,8 +1,0 @@
-{
-    "chat.tools.terminal.autoApprove": {
-        "/^cd \"c:\\\\project OTD\\\\BMX app\\\\bmxmobile\" && python - <<'PY'\nimport pathlib\nimport os\nfor base in \\[pathlib\\.Path\\.home\\(\\)/'\\.pub-cache', pathlib\\.Path\\.home\\(\\)/'AppData'/'Roaming'/'Pub'/'Cache', pathlib\\.Path\\.home\\(\\)/'AppData'/'Local'/'Pub'/'Cache'\\]:\n    if base\\.exists\\(\\):\n        print\\('found', base\\)\n        break\nelse:\n    print\\('no pub cache found'\\)\nPY$/": {
-            "approve": true,
-            "matchCommandLine": true
-        }
-    }
-}
